@@ -239,6 +239,8 @@ public class Prospector : MonoBehaviour {
             if (validMatch) {        // If it’s a valid card
                 S.mine.Remove(cp);   // Remove it from the tableau List
                 S.MoveToTarget(cp);  // Make it the target card
+
+                S.SetMineFaceUps();  // Be sure to add this line!!      
             }
             break;
         }
