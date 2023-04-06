@@ -8,6 +8,9 @@ using UnityEngine.SceneManagement;
 public class Prospector : MonoBehaviour {
     private static Prospector S; // A private Singleton for Prospector
 
+    [Header("Inscribed")]
+    public float                roundDelay = 2f;
+
     [Header("Dynamic")]
     public List<CardProspector> drawPile;
     public List<CardProspector> discardPile;
@@ -247,9 +250,17 @@ public class Prospector : MonoBehaviour {
         // Reset the CardSpritesSO singleton to null
         CardSpritesSO.RESET();                              
         // Reload the scene, resetting the game
-        // Note that there are TWO underscores at the beginning of "__Prospector…
-        SceneManager.LoadScene( "__Prospector_Scene_0" );
+        // But wait a moment first, giving the final score a moment to travel
+        Invoke ("ReloadLevel", roundDelay);
+        //SceneManager.LoadScene( "__Prospector_Scene_0" );
+        UITextManager.GAME_OVER_UI(won);
     }
+
+    void ReloadLevel() {
+        // Reload the scene, resetting the game
+        SceneManager.LoadScene("__Prospector_Scene_0");
+    }
+
 
     /// <summary>
     /// Handler for any time a card in the game is clicked

@@ -61,7 +61,7 @@ public class FloatingScore : MonoBehaviour {
     /// <summary>
     /// Called by the UnityEvent in BezierMover when movement is complete
     /// </summary>
-    void MoverCompleteCallback() {     // Remember to replace this entire method!
+    void MoverCompleteCallback() {  
         // If there is a listener registered with this callback...
         if (FSCallbackEvent != null) {                                       
             // then invoke the callback...
