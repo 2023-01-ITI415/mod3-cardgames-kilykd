@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 942
+  controlID: 8812
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 910
+  controlID: 8779
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,7 +226,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: ae2d0000
     m_LastClickedID: 11694
-    m_ExpandedIDs: ffffffff00000000f84c0000fa4c0000fc4c0000fe4c0000024d0000044d0000064d0000084d00000c4d0000
+    m_ExpandedIDs: ffffffff00000000f84c0000fa4c0000fc4c0000fe4c0000024d0000044d0000064d0000084d00000a4d00000c4d00005a4d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -257,18 +257,18 @@ MonoBehaviour:
     m_ExpandedIDs: ffffffff00000000f84c0000fa4c0000fc4c0000fe4c0000024d0000044d0000064d0000084d00000a4d00000c4d00005a4d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: mainScene
-      m_OriginalName: mainScene
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 19800
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
@@ -370,7 +370,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: ce9efeffe2b2feffc2c1feff6a04ffff9c05ffffecb7ffffd0d6ffffc0d9ffff06daffff46dbffff38fbffff065d0000305d0000
+      m_ExpandedIDs: 0a75feff427cfeff927cfeff9c7cfeffa07cfeffa47cfeffcc7dfeff1c7efeffda7efeffe27efeffea7efeff3c80feffce9efeffe2b2feffc2c1feff6a04ffff9c05ffffecb7ffffd0d6ffffc0d9ffff06daffff46dbffff38fbffff065d0000305d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -418,7 +418,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 901
+  controlID: 8813
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
