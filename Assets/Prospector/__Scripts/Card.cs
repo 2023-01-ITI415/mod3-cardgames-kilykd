@@ -172,7 +172,8 @@ public class Card : MonoBehaviour
         _tSRend.sprite = CardSpritesSO.BACK;
         _tGO.transform.localPosition = Vector3.zero;
         // 2 is a higher sortingOrder than anything else
-        _tSRend.sortingOrder = 2;                                          
+        _tSRend.sortingOrder = 2;   
+        _tGO.name = "back";                                       
         back = _tGO;
     }
 

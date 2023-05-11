@@ -53,12 +53,15 @@ TagManager:
   - name: Row3
     uniqueID: 2761459463
     locked: 0
-  - name: Discard
+  - name: Row4
     uniqueID: 2346098085
     locked: 0
-  - name: Draw
+  - name: Discard
     uniqueID: 3551441613
     locked: 0
-  - name: Target
+  - name: Draw
     uniqueID: 2701567221
+    locked: 0
+  - name: Target
+    uniqueID: 3979279557
     locked: 0
